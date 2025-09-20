@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import { navigation } from '../data';
+import { NavigationItem } from '../types';
+import { Button } from '@/components/ui/button';
 
 const Header = () => {
   return (
@@ -7,10 +10,13 @@ const Header = () => {
         <Link href="/" className="text-2xl font-bold">My Portfolio</Link>
         <nav>
           <ul className="flex space-x-4">
-            <li><Link href="/" className="hover:text-gray-400">Home</Link></li>
-            <li><Link href="/about" className="hover:text-gray-400">About</Link></li>
-            <li><Link href="/projects" className="hover:text-gray-400">Projects</Link></li>
-            <li><Link href="/contact" className="hover:text-gray-400">Contact</Link></li>
+            {navigation.map((item: NavigationItem) => (
+              <li key={item.name}>
+                <Link href={item.href} passHref>
+                  <Button variant="ghost" className="hover:text-gray-400">{item.name}</Button>
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
       </div>

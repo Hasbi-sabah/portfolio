@@ -1,4 +1,6 @@
-export const personalInfo = {
+import { PersonalInfo, Project, Skills, NavigationItem } from "./types";
+
+export const personalInfo: PersonalInfo = {
   name: "Hasbi Sabah",
   about:
     "I am a software engineer with a strong focus on backend development, experienced in building scalable applications and modern web solutions. I specialize in technologies like React, Next.js, NestJS, Flask, and Django, with additional expertise in databases, ORMs, and cloud tools.",
@@ -17,7 +19,7 @@ export const personalInfo = {
   ],
 };
 
-export const projects = [
+export const projects: Project[] = [
   {
     title: "OctAPI",
     description:
@@ -25,8 +27,8 @@ export const projects = [
     technologies: ["Node.js", "TypeScript", "Express", "NestJS", "Flask", "Koa"],
     link: "https://marketplace.visualstudio.com/items?itemName=HasbiSabah.octapi",
     screenshots: [
-      "https://hasbi-sabah.github.io/octapi-landing-page/assets/screenshot1.png",
-      "https://hasbi-sabah.github.io/octapi-landing-page/assets/screenshot2.png",
+      "https://placehold.co/600x400/000000/FFFFFF?text=OctAPI+1",
+      "https://placehold.co/600x400/000000/FFFFFF?text=OctAPI+2",
     ],
   },
   {
@@ -66,7 +68,7 @@ export const projects = [
   },
 ];
 
-export const skills = {
+export const skills: Skills = {
   languages: [
     { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
     { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
@@ -82,7 +84,7 @@ export const skills = {
     { name: "Flask", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
     { name: "Django", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
     { name: "Socket.io", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" },
-    { name: "LangChain", logo: "https://raw.githubusercontent.com/langchain-ai/.github/main/profile/langchain-logo.png" },
+    { name: "LangChain", logo: "https://placehold.co/64x64/000000/FFFFFF?text=LangChain" },
   ],
   databases: [
     { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
@@ -100,12 +102,12 @@ export const skills = {
     { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
     { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
     { name: "Bash", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
-    { name: "Cloudinary", logo: "https://res.cloudinary.com/cloudinary/image/upload/v1686322139/brand/cloudinary_icon_blue.png" },
+    { name: "Cloudinary", logo: "https://placehold.co/64x64/000000/FFFFFF?text=Cloudinary" },
     { name: "Vercel", logo: "https://assets.vercel.com/image/upload/v1662130559/front/favicon/vercel/180x180.png" },
   ],
 };
 
-export const navigation = [
+export const navigation: NavigationItem[] = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Projects", href: "/projects" },
