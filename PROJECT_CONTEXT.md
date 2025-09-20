@@ -24,9 +24,8 @@ Expected top-level sections/pages:
 1. **Home / Hero** – Name, tagline, intro  
 2. **About Me** – Short bio, skills focus  
 3. **Projects** – Case studies, screenshots, descriptions  
-4. **Experience** – Condensed résumé / roles  
-5. **Skills** – Tech logos and tools  
-6. **Contact** – Email, LinkedIn, GitHub, form (optional)  
+4. **Skills** – Tech logos and tools  
+5. **Contact** – Email, LinkedIn, GitHub, form (optional)  
 
 Supporting files/folders:
 - `/pages` → Next.js routing  
