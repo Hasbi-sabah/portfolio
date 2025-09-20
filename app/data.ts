@@ -27,8 +27,8 @@ export const projects: Project[] = [
     technologies: ["Node.js", "TypeScript", "Express", "NestJS", "Flask", "Koa"],
     link: "https://marketplace.visualstudio.com/items?itemName=HasbiSabah.octapi",
     screenshots: [
-      "https://placehold.co/600x400/000000/FFFFFF?text=OctAPI+1",
-      "https://placehold.co/600x400/000000/FFFFFF?text=OctAPI+2",
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/octapi1.png",
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/octapi2.png",
     ],
   },
   {
@@ -38,8 +38,8 @@ export const projects: Project[] = [
     technologies: ["Next.js", "NestJS", "MongoDB", "Socket.io"],
     link: "https://youtu.be/2RcTkfiiW-c",
     screenshots: [
-      "https://placehold.co/600x400/000000/FFFFFF?text=Love+Catch+Kill+1",
-      "https://placehold.co/600x400/000000/FFFFFF?text=Love+Catch+Kill+2",
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/lck1.png",
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/lck2.png",
     ],
   },
   {
@@ -48,7 +48,10 @@ export const projects: Project[] = [
       "AI hackathon project: interactive RAG-based app that allows users to chat with documents and generate personalized quizzes, built in under 48 hours.",
     technologies: ["Next.js", "LangChain", "Qdrant"],
     link: "https://lablab.ai/event/llama-3-ai-hackathon/summa-llama/dipllama",
-    screenshots: ["https://placehold.co/600x400/000000/FFFFFF?text=DipLlama"],
+    screenshots: [
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/dipllama1.png",
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/dipllama2.png"
+    ],
   },
   {
     title: "ALXhibit",
@@ -56,7 +59,10 @@ export const projects: Project[] = [
       "Platform for ALX students to showcase and share projects. Co-developed frontend and backend with Next.js, ensuring smooth user experience and reliable project management features.",
     technologies: ["Next.js"],
     link: "https://alxhibit.vercel.app/",
-    screenshots: ["https://placehold.co/600x400/000000/FFFFFF?text=ALXhibit"],
+    screenshots: [
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/alxhibit1.png",
+      "https://raw.githubusercontent.com/Hasbi-sabah/portfolio/master/public/alxhibit2.png",
+    ],
   },
   {
     title: "VitaSync",
@@ -64,47 +70,125 @@ export const projects: Project[] = [
       "Graduation project: RESTful APIs for patient records, appointments, prescriptions, and histories with Flask. Implemented RBAC, secure storage, and email notification system for reminders.",
     technologies: ["Flask", "Python", "SQLite"],
     link: "https://github.com/Hasbi-sabah/VitaSync",
-    screenshots: ["https://placehold.co/600x400/000000/FFFFFF?text=VitaSync"],
+    screenshots: [
+      "https://github.com/Hasbi-sabah/VitaSync/raw/master/.pictures/doc%20drug.png?raw=true",
+      "https://github.com/Hasbi-sabah/VitaSync/raw/master/.pictures/nurse%20patient.png?raw=true",
+      "https://github.com/Hasbi-sabah/VitaSync/raw/master/.pictures/pharm%20contact%20hcw.png?raw=true"
+    ],
   },
 ];
 
-export const skills: Skills = {
+export const skills = {
   languages: [
-    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-    { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
-    { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    {
+      name: "JavaScript",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+      name: "TypeScript",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    },
+    {
+      name: "Python",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    }
   ],
   frameworks: [
-    { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-    { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-    { name: "NestJS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" },
-    { name: "Express.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-    { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
-    { name: "Redux", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
-    { name: "Flask", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
-    { name: "Django", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
-    { name: "Socket.io", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" },
-    { name: "LangChain", logo: "https://placehold.co/64x64/000000/FFFFFF?text=LangChain" },
+    {
+      name: "React",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      name: "Next.js",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+    },
+    {
+      name: "NestJS",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg"
+    },
+    {
+      name: "Express.js",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+    },
+    {
+      name: "Tailwind CSS",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+    },
+    {
+      name: "Redux",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+    },
+    {
+      name: "Flask",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+    },
+    {
+      name: "Django",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+    },
+    {
+      name: "Socket.io",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
+    }
   ],
   databases: [
-    { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-    { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-    { name: "SQLite", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" },
-    { name: "Redis", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" },
+    {
+      name: "MongoDB",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      name: "MySQL",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    },
+    {
+      name: "SQLite",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+    },
+    {
+      name: "Redis",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+    }
   ],
   orms: [
-    { name: "Mongoose", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
-    { name: "Prisma", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" },
-    { name: "TypeORM", logo: "https://avatars.githubusercontent.com/u/20165699?s=200&v=4" },
-    { name: "Sequelize", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" },
+    {
+      name: "Mongoose",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      name: "Prisma",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg"
+    },
+    {
+      name: "TypeORM",
+      logo: "https://avatars.githubusercontent.com/u/20165699?s=200&v=4"
+    },
+    {
+      name: "Sequelize",
+      logo: "https://sequelize.org/img/logo.svg"
+    }
   ],
   tools: [
-    { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-    { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-    { name: "Bash", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" },
-    { name: "Cloudinary", logo: "https://placehold.co/64x64/000000/FFFFFF?text=Cloudinary" },
-    { name: "Vercel", logo: "https://assets.vercel.com/image/upload/v1662130559/front/favicon/vercel/180x180.png" },
-  ],
+    {
+      name: "Docker",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+    },
+    {
+      name: "Git",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+    },
+    {
+      name: "Bash",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+    },
+    {
+      name: "Cloudinary",
+      logo: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/cloudinary.svg"  // Official SVG source found. :contentReference[oaicite:1]{index=1}
+    },
+    {
+      name: "Vercel",
+      logo: "https://assets.vercel.com/image/upload/v1662130559/front/favicon/vercel/180x180.png"  // This is a PNG; if you find their SVG icon, replace it. 
+    }
+  ]
 };
 
 export const navigation: NavigationItem[] = [
